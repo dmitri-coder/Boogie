@@ -74,7 +74,23 @@ select {
 }
 
 /*global styles*/
-
+.pink {
+  color: #FC97D8;
+}
+.green {
+  color: #18B97D
+}
+.btn {
+  padding: 8px 16px;
+  color: white;
+  width: 75px;
+}
+.btn-pink {
+  background-color: #FC97D8;
+}
+.btn-green {
+  background-color: #18B97D
+}
 /* END GLOBAL STYLES*/
 
 /*header styles*/
@@ -111,6 +127,22 @@ grid-row-gap: 0px;
   height: 400px;
 }
 .half2 {
-  background-color: black;
+  background-color: grey;
   width: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 3fr) 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.half2 div {
+  /*padding: 1em;*/
+
+}
+.box {
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #EFE9E1;
 }
